@@ -1,0 +1,21 @@
+﻿生成启动时间为 2012/3/7 星期三 21:06:45。
+     1>项目“F:\学习\ACM\Topcoder\Topcoder\Topcoder.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\Topcoder.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "SRM536-1000.cpp"
+         SRM536-1000.cpp
+     1>f:\学习\acm\topcoder\topcoder\srm536-1000.cpp(31): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\学习\acm\topcoder\topcoder\srm536-1000.cpp(38): warning C4018: “<”: 有符号/无符号不匹配
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Topcoder.exe.embed.manifest.res" Debug\Topcoder_manifest.rc 
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\学习\ACM\Topcoder\Debug\Topcoder.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Topcoder.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\学习\ACM\Topcoder\Debug\Topcoder.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\学习\ACM\Topcoder\Debug\Topcoder.lib" /MACHINE:X86 Debug\Topcoder.exe.embed.manifest.res
+         "Debug\SRM536-1000.obj"
+     1>MSVCRTD.lib(crtexe.obj) : error LNK2019: 无法解析的外部符号 _main，该符号在函数 ___tmainCRTStartup 中被引用
+     1>F:\学习\ACM\Topcoder\Debug\Topcoder.exe : fatal error LNK1120: 1 个无法解析的外部命令
+     1>已完成生成项目“F:\学习\ACM\Topcoder\Topcoder\Topcoder.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.95

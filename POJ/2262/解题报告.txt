@@ -1,0 +1,22 @@
+掌握了用筛选法来求一定范围内的素数。这要比sqrt强多了。
+
+具体实现如下。
+void createprimenumber()
+{
+	int i,j;
+	for (i = 2;i < 1000;i++)
+	{
+		if (primenumber[i])
+		for (j = 2 * i ;j <= 1000000;j+=i)
+		{
+			primenumber[j] = 0;	
+		}
+	}
+}
+原理是标记某一个数的所有倍数。
+
+这个语句可以用来给数组初始化 	
+memset(primenumber, 1, sizeof(primenumber));
+但它的值不是1
+
+本题要求一个数分成2个奇素数（m=a+b）相加的等式，只需要枚举其中一个素数a，然后判断m-a是不是素数

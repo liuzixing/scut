@@ -1,0 +1,1 @@
+学会了用gets（c）可以把带空格的字符串读入。。#include<string>

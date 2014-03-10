@@ -1,0 +1,35 @@
+Description
+
+	Little cabbage made a lecture for the ACMer last week. And he left a problem for them to think. Now is the time to check the homework.
+	The problem is this: there are N numbers round in a circle.And you should find two  sub-segment of the circle and the sum of them is maxinum.
+	You should gaurantee that each sub-segment must contain at least 1 number and the two sub-segment should not overlap.
+
+Input
+
+Multiple test cases.The first line of the input is T,indicates the number of the test cases.
+The first line of the test case is N, means there are N ( -1000 < N < 1000 ) numbers in a circle.
+The follow N lines ,each line contains a number.
+
+Output
+each line a number , which is the answer for each test cases.
+
+Sample Input
+
+2
+
+5
+1
+-1
+1
+-1
+4
+
+3
+-1
+-2
+-3
+
+Sample Output
+
+6
+-3

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1302009031 source:f:\ѧϰ\acm\hdoj\hdoj\main.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<algorithm>
+	<cmath>
+	<cstring>
+	<ctime>
+	<string>
+	<set>
+	<map>
+

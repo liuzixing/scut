@@ -1,0 +1,6 @@
+题目关键是这句话：Substitution cipher changes all occurrences of each letter to some other letter. Substitutes for all letters must be different。
+For some letters substitute letter may coincide with the original letter.
+ 也就是说规则不是固定的。
+permutation cipher这种加密方式是随机的，只要字母出现的频率是一样的，就总能够建立一种映射，使得encrypted message 和original message 匹配。
+
+所以，题目的做法是统计2个字符串的字母出现频率。

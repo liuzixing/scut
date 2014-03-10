@@ -1,0 +1,19 @@
+题目意思是，已知Vs,R,C,w.求Vr。
+
+已知：
+V1=Vs*coswt,
+V2=VR*cos(wt+a) = iR，
+i = d(v1 - v2)/dt (注意这是对t的求导)
+
+推导如下：
+V2 = i*R = C*R*d(Vs*coswt - VR*cos(wt+a))dt
+         =w*C*R(VR*sin(wt+a)-Vs*sinwt) = VR*cos(wt+a)
+
+令t=0
+w*C*R*tana = 1；-->tana = 1/(w*C*R); 则sina = 1/sqrt(w^2*C^2*R^2+1);
+令wt+a=0
+w*C*R*Vs*sina=VR;
+
+
+所以。
+VR = w*C*R*Vs/sqrt(w^2*C^2*R^2+1);

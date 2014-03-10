@@ -1,0 +1,11 @@
+一开是想只用一个数组来标记当前位置的下一个和上一个，和是发现这是行不通。
+
+然后想到了指针。。这个是一定行得通，，可是太麻烦了。而且new和delete在C++中比较慢
+
+于是很无耻地看了别人的题解，用栈。。
+
+VISIT  把forward栈清空，把原来的now放进back里，把刚输入的网址变成now。
+
+back   把back出栈，now向forward进栈  back->now->forward
+
+forward 与back相反
